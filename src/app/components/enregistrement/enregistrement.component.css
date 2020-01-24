@@ -1,0 +1,49 @@
+.steps-content {
+    margin-top: 0px;
+    border-radius: 6px;
+    min-height: 200px;
+    text-align: center;
+    padding: 10px;
+}
+
+.steps-action {
+    margin-top: 24px;
+}
+
+button {
+    margin-right: 8px;
+}
+
+.ng-invalid:not(form) {
+    border-left: 2px solid red;
+}
+
+.scrollable-container {
+    height: 100px;
+    overflow-y: scroll;
+}
+
+nz-header {
+    background: #fff;
+    color: #fff;
+    padding: 0;
+    width: 100%;
+    z-index: 2;
+    position: fixed;
+    text-align: center;
+}
+
+nz-footer {
+    bottom: 10px;
+    width: 100%;
+    line-height: 1.5;
+    margin-top: 100px;
+}
+
+nz-layout:last-child {
+    margin: 2px;
+}
+
+nz-content {
+    background: #fff;
+}

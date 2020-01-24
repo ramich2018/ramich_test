@@ -1,0 +1,48 @@
+<nz-layout>
+    <nz-header>
+        <ul nz-menu [nzMode]="'horizontal'">
+            <!--  <li nz-menu-item (click)=blank()>
+                <i nz-icon type="mail"></i> <b>Acceuil</b>
+            </li> -->
+            <li nz-menu-item (click)=apropos()>
+                <i nz-icon type="appstore"></i><b>A Propos</b>
+            </li>
+            <li nz-menu-item (click)=market()>
+                <i nz-icon type="setting"></i> <b>Services</b>
+            </li>
+            <li nz-menu-item (click)=login()>
+                <i nz-icon type="user"></i><b>Connexion</b>
+            </li>
+        </ul>
+    </nz-header>
+    <nz-content>
+        <nz-carousel nzAutoPlay>
+            <div nz-carousel-content *ngFor="let index of array">
+                <img src={{index}}>
+            </div>
+        </nz-carousel>
+        <div class="col-md-12 align-self-center text-center text-md-left">
+
+
+
+            <h2 align="center">Présentation générale</h2>
+            <h5>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas, modi fugit in veritatis labore perferendis. Minima hic at, nostrum
+                nihil!Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas, modi fugit in veritatis labore perferendis.
+                Minima hic at, nostrum nihil!Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas, modi fugit in veritatis
+                labore perferendis. Minima hic at, nostrum nihil!Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas,
+                modi fugit in veritatis labore perferendis. Minima hic at, nostrum nihil!
+            </h5>
+
+
+
+
+        </div>
+    </nz-content>
+
+    <nz-footer style="text-align: center;">
+        <strong>Copyright &copy; 2018-2019
+            <a href="https://adminlte.io">Aatout Cotonou Bénin</a>.
+        </strong> All rights
+    </nz-footer>
+</nz-layout>
