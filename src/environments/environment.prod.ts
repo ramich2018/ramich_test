@@ -1,5 +1,5 @@
 export const environment = {
   production: true,
   expirationTime : 5000,
-  backend: 'http://localhost:8080' 
+  backend: 'https://testramich2020.herokuapp.com' 
 };
