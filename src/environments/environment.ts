@@ -4,9 +4,10 @@
 
 export const environment = {
   production: false,
-  expirationTime : 5000,
-  backend: 'http://localhost:8080' 
+  expirationTime : 5000,             
+//backend: 'http://localhost:8080' 
   //backend: 'http://192.168.43.89:8080'
+  backend: 'http://testramich2020.herokuapp.com'
 };
 
 /*
