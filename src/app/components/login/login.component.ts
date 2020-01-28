@@ -55,7 +55,7 @@ export class LoginComponent implements OnInit {
             this.tokenStorage.saveToken(jwt);
             this.storeCurrentUser();
             console.log(this.tokenStorage.getToken());
-            location.href = '/admin';
+            location.href = 'admin';
           }
         },
         (error: HttpErrorResponse) => {
